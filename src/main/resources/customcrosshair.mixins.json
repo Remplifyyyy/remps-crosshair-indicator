@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.customcrosshair.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "EntityHitboxDebugRendererMixin",
+    "MinecraftClientAccessor"
+  ],
+  "injectors": {
+    "defaultRequire": 0
+  }
+}

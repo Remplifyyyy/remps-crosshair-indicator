@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "customcrosshair",
+  "version": "${version}",
+  "name": "Remplify Crosshair Indicator",
+  "description": "Draw your own crosshair, change its colour and size, give it a different look when aiming at entities, and colour the hitbox of the entity you're looking at.",
+  "authors": [
+    "Remplify"
+  ],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.customcrosshair.CustomCrosshairClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.17.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "mixins": [
+    "customcrosshair.mixins.json"
+  ]
+}
